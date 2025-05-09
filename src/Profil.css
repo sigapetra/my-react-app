@@ -1,0 +1,78 @@
+.profil-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #3a3a3a; /* Darker background */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-bottom: 30px;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .profil-container:hover {
+    transform: translateY(-5px);
+  }
+  
+  .profil-image {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 5px solid #4d4d4d; /* Darker border */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 15px;
+  }
+  
+  .profil-image:hover {
+    border-color: #569cd6; /* Light blue on hover */
+  }
+  
+  .profil-container h1 {
+    color: #dcdcdc;
+    margin-bottom: 10px;
+    font-size: 2.5em;
+  }
+  
+  .profil-deskripsi {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #a9b7c6; /* Lighter gray description */
+    line-height: 1.6;
+  }
+  
+  .profil-keahlian {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .profil-keahlian h2 {
+    color: #dcdcdc;
+    border-bottom: 2px solid #569cd6; /* Light blue underline */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+  }
+  
+  .profil-keahlian ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .profil-keahlian li {
+    margin: 8px 12px;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #454545; /* Darker skill background */
+    color: #dcdcdc; /* Light text for skills */
+    border: 1px solid #5e5e5e;
+    font-size: 0.95em;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profil-keahlian li:hover {
+    background-color: #569cd6;
+    color: white;
+  }
