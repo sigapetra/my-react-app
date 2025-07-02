@@ -3,6 +3,8 @@ import './App.css';
 import Profil from './Profil';
 import DaftarProyek from './DaftarProyek';
 import Kontak from './Kontak';
+import StarsBackground from "./StarsBackground";
+
 
 function App() {
   const profilNama = "Siga Petra";
@@ -33,6 +35,7 @@ function App() {
 
   return (
     <div className="App">
+      <StarsBackground />
       <section
         id="profil"
         className="section-profil fade-in"

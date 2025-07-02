@@ -25,3 +25,89 @@ dist-ssr
 # Dependency directories
 .env
 .env.*
+# Build directories
+build
+coverage
+.next
+out
+.cache
+.cache-loader
+.nuxt
+.nuxt3
+.svelte-kit
+.vite
+.angular
+.angular-cache
+.angular-build
+.angular-ssr
+.angular-ssr-cache
+.angular-ssr-build          
+# Temporary files
+tmp
+temp
+*.tmp
+*.temp
+*.bak
+*.swp
+*.orig
+*.old
+*.pid
+*.seed
+*.pid.lock
+*.seed.lock
+# Miscellaneous
+*.tgz
+*.zip
+*.tar.gz
+*.rar
+*.7z
+*.gz
+*.bz2
+*.xz
+*.7zip
+*.tar
+*.tar.bz2
+*.tar.xz
+*.tar.gz
+*.tar.lz
+*.tar.lzo
+*.tar.lzma
+*.tar.lzop
+*.tar.zst
+*.tar.xz
+*.tar.lz4
+*.tar.lzma2
+*.tar.lz4
+*.tar.lzop2
+*.tar.lzma3
+*.tar.lz4c
+*.tar.lz4f
+*.tar.lz4x
+*.tar.lz4s
+*.tar.lz4v
+*.tar.lz4w
+*.tar.lz4y
+*.tar.lz4z
+*.tar.lz4a
+*.tar.lz4b
+*.tar.lz4c
+*.tar.lz4d      
+# GitHub token file
+# This file is used to store GitHub tokens securely.
+# It should not be committed to the repository.
+# Please ensure that this file is added to your .gitignore file to prevent accidental commits.
+# Example content:
+# GITHUB_TOKEN=your_github_token_here
+# Note: Replace 'your_github_token_here' with your actual GitHub token.
+# For more information on how to generate a GitHub token, visit:
+# https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token
+# Ensure that this file is kept secure and not shared publicly.
+# If you need to use this token in your application, consider using environment variables or a secure
+# secrets management service.
+# For more information on how to use environment variables in your application, refer to:
+# https://12factor.net/config
+# For more information on how to use a secrets management service, refer to:
+# https://www.hashicorp.com/resources/what-is-secrets-management
+# Remember to keep this file out of version control to protect your sensitive information.
+# Example of a GitHub token file:          
+catatan_token_github.md
